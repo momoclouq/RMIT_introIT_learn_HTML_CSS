@@ -1,0 +1,24 @@
+#container {
+    font-size: 16px;
+}
+.main_heading {
+    background-color: grey;    
+}
+.main {
+    background-color: blue;
+}
+.main_footer {
+    background-color: green;
+}
+.main_header, 
+.main_footer {
+  color: red;
+}
+
+h1+h4 {
+    background-color: violet;
+}
+/* Descendant selector: footer p { ... } = find all p tags inside of a footer tag
+Adjacent selector: h1+h4 { ... } = find all elements that are directly adjacent to some other specified
+elements. -> find all h4 tags that are directly adjacent to an h1 tag
+more in link: https://www.rithmschool.com/courses/html-css-fundamentals/syntax-selectors
