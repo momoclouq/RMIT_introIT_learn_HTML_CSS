@@ -5,10 +5,30 @@
         <title>html-1.4</title>
     </head>
     <body>
-        <h1>Testing media html</h1>
-        <div>Listen to x</div>
-        <!--audio-->
-        <audio controls src="whatIsLove.mp3">Your browser does not support the <code>audio</code> element
-        </audio>
+        <article>
+            <h1>Testing media html</h1>
+            <div>Listen to x</div>
+            <!--audio-->
+            <audio controls src="whatIsLove.mp3">Your browser does not support the <code>audio</code> element
+            </audio>
+            <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">learn more about audio tag</a></p>
+        </article>
+         
+        <article>
+            <!--video-->
+            <h3>Watch a video</h3>
+            <video controls autoplay width="500">
+                <source src="testvideo.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+            <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">learn more about video</a></p>
+        </article>
+
+        <article>
+            <!--iframe youtube-->
+            <iframe id="ytplayer" type="text/html" width="650" height="360"
+                src="https://www.youtube.com/embed/qYaYY4YRBTM"
+                frameborder="0"></iframe>
+        </article>
     </body>  
 </html>
