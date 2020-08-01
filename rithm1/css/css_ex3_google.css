@@ -1,0 +1,22 @@
+img {
+    width: 20%;
+    height: auto;
+}
+
+header {
+    border: pink 20px;
+}
+
+footer div{
+    border:20px black;
+    background-color: grey;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+.spans {
+    width: 100px;
+    margin: 0 auto;
+    background-color: green;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>html 1.3.1</title>
+    <meta charset="UTF-8">
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+            background: green;
+        }
+
+        #three, #four{
+            display: inline-block;
+        }
+
+        #table{
+            display: table;
+        }
+
+        .row{
+            display: table-row;
+        }
+
+        .cell{
+            display:table-cell;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        #outer{
+            display: table;
+            width: 600px;
+            height: 600px;
+            background-color: blue;
+            color: white;
+        }
+
+        #inner{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id = "one">I AM A BOX</div>
+    <div id ="two">I AM A BOX</div>
+    <div id = "three">I AM A BOX</div>
+    <div id = "four">I AM A BOX</div>
+    <div id = "table">
+        <div class = "row">
+            <div class="cell">Data 1</div>
+            <div class="cell">Data 2</div>
+            <div class="cell">Data 3</div>
+        </div>
+        <div class="row">
+            <div class="cell">Data 4</div>
+            <div class="cell">Data 5</div>
+            <div class="cell">Data 6</div>
+        </div>
+    </div>
+
+    <div id="outer">
+        <div id="inner">
+            Woah im in the middle
+        </div>
+    </div>
+</body>
